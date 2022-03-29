@@ -1,0 +1,27 @@
+.country-container{
+    display: flex;
+    
+}
+.menu{
+    width: 300px;
+    height: calc(100vh - 90px);
+    background-color: cornflowerblue;
+    overflow-y: scroll;
+}
+.menu li{
+    list-style: none;
+    text-align: left;
+    padding-left: 20px;
+    line-height: 25px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.details{
+    flex-grow: 1;
+    padding-top: 30px;
+}
+.country-details img{
+    width: 50%;
+}
